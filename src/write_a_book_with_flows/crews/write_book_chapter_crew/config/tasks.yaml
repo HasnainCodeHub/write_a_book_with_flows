@@ -19,7 +19,7 @@ research_chapter:
 write_chapter:
   description: >
     Write a well-structured chapter based on the chapter title, goal, and outline description. 
-    Each chapter should be written in markdown and should contain around 100 words.
+    Each chapter should be written in markdown and should contain around 1000 words.
 
     Here is the topic for the book: {topic}
     Here is the title of the chapter: {chapter_title}
@@ -31,5 +31,5 @@ write_chapter:
     Here is the outline of the entire book:\n\n
     {book_outline}
   expected_output: >
-    A markdown-formatted chapter of around 100 words that covers the provided chapter title and outline description.
+    A markdown-formatted chapter of around 1000 words that covers the provided chapter title and outline description.
   agent: writer
